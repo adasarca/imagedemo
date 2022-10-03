@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  UploadImageQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: s3-image-upload-notification-queue
+  ImageBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: imagedemo-posts
+      VersioningConfiguration:
+        Status: Enabled
+      NotificationConfiguration:
+        QueueConfigurations:
+          - Event: s3:ObjectCreated:*
+            Queue: !GetAtt UploadImageQueue.Arn

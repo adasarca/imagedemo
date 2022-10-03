@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="46" passed="46" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-17T14:40:13 EEST" name="Command line suite" finished-at="2022-08-17T14:40:18 EEST" duration-ms="5054">
+    <groups>
+    </groups>
+    <test started-at="2022-08-17T14:40:13 EEST" name="Command line test" finished-at="2022-08-17T14:40:18 EEST" duration-ms="5054">
+      <class name="com.adasarca.imagedemo.graphql.PostDataFetcherTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextBeforeTestClass" finished-at="2022-08-17T14:40:17 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextPrepareTestInstance" finished-at="2022-08-17T14:40:18 EEST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="init" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testDeletePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testDeletePost()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="testDeletePost" finished-at="2022-08-17T14:40:18 EEST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePost -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testDeletePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testPosts()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="testPosts" finished-at="2022-08-17T14:40:18 EEST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPosts -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testPosts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testPosts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testPosts_DatabaseException()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="testPosts_DatabaseException" finished-at="2022-08-17T14:40:18 EEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPosts_DatabaseException -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testPosts_DatabaseException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testUpdatePost()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="testUpdatePost" finished-at="2022-08-17T14:40:18 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePost -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUpdatePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testPosts_DatabaseException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testUploadPost()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="testUploadPost" finished-at="2022-08-17T14:40:18 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadPost -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUploadPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUpdatePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testUploadPost_AmazonS3Exception()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="testUploadPost_AmazonS3Exception" finished-at="2022-08-17T14:40:18 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadPost_AmazonS3Exception -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUploadPost_AmazonS3Exception()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUploadPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testUploadPost_ValidationException()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="testUploadPost_ValidationException" finished-at="2022-08-17T14:40:18 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUploadPost_ValidationException -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUploadPost_ValidationException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUploadPost_AmazonS3Exception()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.PostDataFetcherTest.testUploadPost_ValidationException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.adasarca.imagedemo.graphql.PostDataFetcherTest@42f3156d]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestClass" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.adasarca.imagedemo.graphql.PostDataFetcherTest -->
+      <class name="com.adasarca.imagedemo.controller.AuthenticationControllerTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:13 EEST" name="springTestContextBeforeTestClass" finished-at="2022-08-17T14:40:13 EEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:13 EEST" name="springTestContextPrepareTestInstance" finished-at="2022-08-17T14:40:17 EEST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="3398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="init" finished-at="2022-08-17T14:40:17 EEST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testAuthenticate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testAuthenticate()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="testAuthenticate" finished-at="2022-08-17T14:40:17 EEST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticate -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testAuthenticate()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testAuthenticate_ValidationException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testAuthenticate_ValidationException()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="testAuthenticate_ValidationException" finished-at="2022-08-17T14:40:17 EEST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticate_ValidationException -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testAuthenticate_ValidationException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testSignup()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="testSignup" finished-at="2022-08-17T14:40:17 EEST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testSignup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testSignup_DatabaseException()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="testSignup_DatabaseException" finished-at="2022-08-17T14:40:17 EEST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_DatabaseException -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testSignup_DatabaseException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testSignup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testSignup_DatabaseException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testSignup_ValidationException()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="testSignup_ValidationException" finished-at="2022-08-17T14:40:17 EEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_ValidationException -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testSignup_ValidationException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:17 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.controller.AuthenticationControllerTest.testSignup_ValidationException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.adasarca.imagedemo.controller.AuthenticationControllerTest@5a9d6f02]" started-at="2022-08-17T14:40:17 EEST" name="springTestContextAfterTestClass" finished-at="2022-08-17T14:40:17 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.adasarca.imagedemo.controller.AuthenticationControllerTest -->
+      <class name="com.adasarca.imagedemo.service.UserServiceTest">
+        <test-method signature="testFindById()[pri:0, instance:com.adasarca.imagedemo.service.UserServiceTest@f27ea3]" started-at="2022-08-17T14:40:18 EEST" name="testFindById" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method signature="testFindById_NotFound()[pri:0, instance:com.adasarca.imagedemo.service.UserServiceTest@f27ea3]" started-at="2022-08-17T14:40:18 EEST" name="testFindById_NotFound" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById_NotFound -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.UserServiceTest@f27ea3]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.UserServiceTest@f27ea3]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.adasarca.imagedemo.service.UserServiceTest -->
+      <class name="com.adasarca.imagedemo.service.PostServiceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDelete()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testDelete" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDelete_MissingContextUser()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testDelete_MissingContextUser" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[CurrentUser is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: CurrentUser is null
+at com.adasarca.imagedemo.service.PostService.delete(PostService.java:195)
+at com.adasarca.imagedemo.service.PostServiceTest.testDelete_MissingContextUser(PostServiceTest.java:280)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete_MissingContextUser -->
+        <test-method signature="testDelete_PostNotFound()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testDelete_PostNotFound" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Invalid post ID]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Invalid post ID
+at com.adasarca.imagedemo.service.PostService.delete(PostService.java:199)
+at com.adasarca.imagedemo.service.PostServiceTest.testDelete_PostNotFound(PostServiceTest.java:290)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete_PostNotFound -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFindByUser()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testFindByUser" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFindByUser_EmptyList()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testFindByUser_EmptyList" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByUser_EmptyList -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFindByUser_NullList()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testFindByUser_NullList" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByUser_NullList -->
+        <test-method signature="testFindByUser_MissingContextUser()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testFindByUser_MissingContextUser" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[CurrentUser is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: CurrentUser is null
+at com.adasarca.imagedemo.service.PostService.findAllByUser(PostService.java:51)
+at com.adasarca.imagedemo.service.PostServiceTest.testFindByUser_MissingContextUser(PostServiceTest.java:181)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByUser_MissingContextUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdate()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpdate" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method signature="testUpdate_DescriptionTooLong()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpdate_DescriptionTooLong" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Description exceeds character limit of 300]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Description exceeds character limit of 300
+at com.adasarca.imagedemo.service.PostService.update(PostService.java:163)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpdate_DescriptionTooLong(PostServiceTest.java:250)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate_DescriptionTooLong -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpdate_PostNotFound()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpdate_PostNotFound" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Invalid post ID]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Invalid post ID
+at com.adasarca.imagedemo.service.PostService.update(PostService.java:167)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpdate_PostNotFound(PostServiceTest.java:260)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate_PostNotFound -->
+        <test-method signature="testUpdate_MissingContextUser()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpdate_MissingContextUser" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[CurrentUser is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: CurrentUser is null
+at com.adasarca.imagedemo.service.PostService.update(PostService.java:160)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpdate_MissingContextUser(PostServiceTest.java:233)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate_MissingContextUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpload()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpload" finished-at="2022-08-17T14:40:18 EEST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpload_DatabaseException()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpload_DatabaseException" finished-at="2022-08-17T14:40:18 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload_DatabaseException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpload_DescriptionTooLong()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpload_DescriptionTooLong" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Description exceeds character limit of 300]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Description exceeds character limit of 300
+at com.adasarca.imagedemo.service.PostService.upload(PostService.java:73)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpload_DescriptionTooLong(PostServiceTest.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload_DescriptionTooLong -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpload_InvalidContent()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpload_InvalidContent" finished-at="2022-08-17T14:40:18 EEST" duration-ms="2" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Invalid file]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Invalid file
+at com.adasarca.imagedemo.service.PostService.upload(PostService.java:93)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpload_InvalidContent(PostServiceTest.java:123)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload_InvalidContent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpload_InvalidContentType()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpload_InvalidContentType" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Invalid image content type]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Invalid image content type
+at com.adasarca.imagedemo.service.PostService.upload(PostService.java:76)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpload_InvalidContentType(PostServiceTest.java:111)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload_InvalidContentType -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUpload_MissingImageFile()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpload_MissingImageFile" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Cannot upload post without an image]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Cannot upload post without an image
+at com.adasarca.imagedemo.service.PostService.upload(PostService.java:70)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpload_MissingImageFile(PostServiceTest.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload_MissingImageFile -->
+        <test-method signature="testUpload_MissingContextUser()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="testUpload_MissingContextUser" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[CurrentUser is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: CurrentUser is null
+at com.adasarca.imagedemo.service.PostService.upload(PostService.java:67)
+at com.adasarca.imagedemo.service.PostServiceTest.testUpload_MissingContextUser(PostServiceTest.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpload_MissingContextUser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.PostServiceTest@3383649e]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.adasarca.imagedemo.service.PostServiceTest -->
+      <class name="com.adasarca.imagedemo.service.security.AuthenticationServiceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAuthenticate()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testAuthenticate" finished-at="2022-08-17T14:40:18 EEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticate -->
+        <test-method signature="testAuthenticate_EmptyRequest()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testAuthenticate_EmptyRequest" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Missing credentials]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Missing credentials
+at com.adasarca.imagedemo.service.security.AuthenticationService.authenticate(AuthenticationService.java:57)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testAuthenticate_EmptyRequest(AuthenticationServiceTest.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticate_EmptyRequest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAuthenticate_InvalidCredentials()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testAuthenticate_InvalidCredentials" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Invalid credentials]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Invalid credentials
+at com.adasarca.imagedemo.service.security.AuthenticationService.authenticate(AuthenticationService.java:63)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testAuthenticate_InvalidCredentials(AuthenticationServiceTest.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticate_InvalidCredentials -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAuthenticate_NullRequest()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testAuthenticate_NullRequest" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Missing credentials]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Missing credentials
+at com.adasarca.imagedemo.service.security.AuthenticationService.authenticate(AuthenticationService.java:57)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testAuthenticate_NullRequest(AuthenticationServiceTest.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticate_NullRequest -->
+        <test-method signature="testSignup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignup_DatabaseException()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup_DatabaseException" finished-at="2022-08-17T14:40:18 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_DatabaseException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignup_EmptyRequest()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup_EmptyRequest" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Missing required fields]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Missing required fields
+at com.adasarca.imagedemo.service.security.AuthenticationService.signup(AuthenticationService.java:80)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testSignup_EmptyRequest(AuthenticationServiceTest.java:148)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_EmptyRequest -->
+        <test-method signature="testSignup_DuplicateEmail()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup_DuplicateEmail" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Email address already exists]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Email address already exists
+at com.adasarca.imagedemo.service.security.AuthenticationService.signup(AuthenticationService.java:90)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testSignup_DuplicateEmail(AuthenticationServiceTest.java:168)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_DuplicateEmail -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignup_InvalidEmail()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup_InvalidEmail" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Invalid email address]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Invalid email address
+at com.adasarca.imagedemo.service.security.AuthenticationService.signup(AuthenticationService.java:85)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testSignup_InvalidEmail(AuthenticationServiceTest.java:158)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_InvalidEmail -->
+        <test-method signature="testSignup_InvalidPassword()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup_InvalidPassword" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Password must contain at least 8 characters of which at least one digit, one lowercase letter, one uppercase letter and one special character]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Password must contain at least 8 characters of which at least one digit, one lowercase letter, one uppercase letter and one special character
+at com.adasarca.imagedemo.service.security.AuthenticationService.signup(AuthenticationService.java:95)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testSignup_InvalidPassword(AuthenticationServiceTest.java:180)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_InvalidPassword -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignup_MissingRole()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup_MissingRole" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[role]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: role
+at com.adasarca.imagedemo.service.security.AuthenticationService.signup(AuthenticationService.java:76)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testSignup_MissingRole(AuthenticationServiceTest.java:138)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_MissingRole -->
+        <test-method signature="testSignup_NullRequest()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="testSignup_NullRequest" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <exception class="com.adasarca.imagedemo.model.exception.ValidationException">
+            <message>
+              <![CDATA[Missing required fields]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.adasarca.imagedemo.model.exception.ValidationException: Missing required fields
+at com.adasarca.imagedemo.service.security.AuthenticationService.signup(AuthenticationService.java:80)
+at com.adasarca.imagedemo.service.security.AuthenticationServiceTest.testSignup_NullRequest(AuthenticationServiceTest.java:143)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.adasarca.imagedemo.model.exception.ValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup_NullRequest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.adasarca.imagedemo.service.security.AuthenticationServiceTest@10fde30a]" started-at="2022-08-17T14:40:18 EEST" name="setup" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.adasarca.imagedemo.service.security.AuthenticationServiceTest -->
+      <class name="com.adasarca.imagedemo.graphql.UserDataFetcherTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestClass" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextPrepareTestInstance" finished-at="2022-08-17T14:40:18 EEST" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="init" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testUser()[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="testUser" finished-at="2022-08-17T14:40:18 EEST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.UserDataFetcherTest.testUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.UserDataFetcherTest.testUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testUser_DatabaseException()[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="testUser_DatabaseException" finished-at="2022-08-17T14:40:18 EEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser_DatabaseException -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextBeforeTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.UserDataFetcherTest.testUser_DatabaseException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestMethod" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adasarca.imagedemo.graphql.UserDataFetcherTest.testUser_DatabaseException()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.adasarca.imagedemo.graphql.UserDataFetcherTest@533377b]" started-at="2022-08-17T14:40:18 EEST" name="springTestContextAfterTestClass" finished-at="2022-08-17T14:40:18 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.adasarca.imagedemo.graphql.UserDataFetcherTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

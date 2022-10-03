@@ -1,0 +1,71 @@
+{
+    "TableName": "Post",
+    "AttributeDefinitions": [
+        {
+            "AttributeName": "UserId",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "PostId",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "CreatedAt",
+            "AttributeType": "S"
+        },
+        {
+            "AttributeName": "ImageKey",
+            "AttributeType": "S"
+        }
+    ],
+    "KeySchema": [
+        {
+            "AttributeName": "UserId",
+            "KeyType": "HASH"
+        },
+        {
+            "AttributeName": "PostId",
+            "KeyType": "RANGE"
+        }
+    ],
+    "LocalSecondaryIndexes": [
+        {
+            "IndexName": "CreatedAtIndex",
+            "Projection": {
+                "ProjectionType": "ALL"
+            },
+            "KeySchema": [
+                {
+                    "AttributeName": "UserId",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "CreatedAt",
+                    "KeyType": "RANGE"
+                }
+            ]
+        }
+    ],
+    "GlobalSecondaryIndexes": [
+        {
+            "IndexName": "ImageKeyIndex",
+            "Projection": {
+                "ProjectionType": "ALL"
+            },
+            "ProvisionedThroughput": {
+                "WriteCapacityUnits": 5,
+                "ReadCapacityUnits": 5
+            },
+            "KeySchema": [
+                {
+                    "KeyType": "HASH",
+                    "AttributeName": "ImageKey"
+                }
+            ]
+        }
+    ],
+    "ProvisionedThroughput": {
+        "WriteCapacityUnits": 5,
+        "ReadCapacityUnits": 5
+    }
+}

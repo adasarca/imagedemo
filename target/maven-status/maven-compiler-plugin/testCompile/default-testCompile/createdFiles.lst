@@ -1,0 +1,11 @@
+com\adasarca\imagedemo\graphql\PostDataFetcherTest$1.class
+com\adasarca\imagedemo\controller\AuthenticationControllerTest.class
+com\adasarca\imagedemo\graphql\UserDataFetcherTest$1.class
+com\adasarca\imagedemo\service\PostServiceTest.class
+com\adasarca\imagedemo\service\security\AuthenticationServiceTest.class
+com\adasarca\imagedemo\BaseSpringContextTest.class
+com\adasarca\imagedemo\graphql\PostDataFetcherTest$2.class
+com\adasarca\imagedemo\graphql\PostDataFetcherTest.class
+com\adasarca\imagedemo\graphql\UserDataFetcherTest.class
+com\adasarca\imagedemo\service\UserServiceTest.class
+com\adasarca\imagedemo\graphql\PostDataFetcherTest$3.class

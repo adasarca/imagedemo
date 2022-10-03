@@ -1,0 +1,33 @@
+type Query {
+    posts: [Post]
+    completedPosts: [Post]
+    user(userId: String!): User
+}
+
+type Mutation {
+    uploadPost(description: String, image: Upload!): Post
+    updatePost(postId: String!, description: String): Post
+    deletePost(postId: String!): String
+    createPost(description: String, contentType: String!): String!
+}
+scalar Upload
+scalar ZonedDateTime
+
+type Post {
+    userId: String!
+    postId: String!
+    description: String
+    imageUrl: String!
+    createdAt: ZonedDateTime!
+    updatedAt: ZonedDateTime!
+}
+
+type User {
+    userId: String!
+    firstName: String!
+    lastName: String!
+    role: String!
+    createdAt: ZonedDateTime!
+}
+
+
